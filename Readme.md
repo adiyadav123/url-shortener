@@ -7,4 +7,4 @@
 
 # Preview
 
-<img src="./preview.png" height="auto" width="auto">
+![preview](https://github.com/adiyadav123/url-shortener/assets/103302549/8a1c954c-709a-4037-96f0-0d7d536e6c36)
