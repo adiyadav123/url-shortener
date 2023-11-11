@@ -175,3 +175,26 @@ button:active {
 .input_with_link:active {
     transform: scale(0.9);
 }
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 7vh;
+    width: 100%;
+    background-color: #232D3F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.footer h4 {
+    font-weight: lighter;
+}
+
+.footer a {
+    font-weight: lighter;
+    text-decoration: none;
+    color: #52FFA8;
+}
