@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    transition: all ease 0.5s;
+}
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 0 10px 0 10px ;
+}
+
+.container {
+    min-height: 100vh;
+    width: 100vw;
+    padding: 0 10px 0 10px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #101010;
+}
+
+.container_short{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 10px 40px;
+    background-color: #232D3F;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #52FFA8;
+}
+
+.big_container {
+    padding: 10px 20px;
+    background-color: #232D3F;
+    border-radius: 10px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.count {
+    color: #52FFA8;
+}
+.input_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    border-radius: 7px;
+    background-color: #0000006d;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button i {
+    color: #232D3F;
+}
+
+ i {
+    padding: 5px;
+    padding-right: 10px;
+    color: #52FFA8;
+}
+
+.main_input input {
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+    color: white;
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #232D3F;
+    background-color: #52FFA8;
+    border-radius: 5px;
+}
+
+.main_input:hover {
+    box-shadow: 5px 5px 0 #101010;
+    background-color: #96ffca;
+    transform: scale(1.02);
+}
+
+.main_input:hover .fa-paperclip, .main_input:hover .mI{
+    color: #232D3F;
+}
+
+.main_input:active {
+    transform: scale(0.9);
+}
+
+button:hover {
+    box-shadow: 5px 5px 0 #101010;
+    background-color: #96ffca;
+    transform: scale(1.1);
+}
+
+button:active {
+    transform: scale(0.6);
+}
+
+
+.history {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #232D3F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.texts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texts .input_with_link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    border-radius: 7px;
+    background-color: #0000006d;
+}
+
+.texts .input_with_link span {
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+    color: white;
+    outline: none;
+}
+
+.input_with_link:hover {
+    box-shadow: 5px 5px 0 #101010;
+    background-color: #96ffca;
+    transform: scale(1.02);
+}
+
+.input_with_link:hover .fa-paperclip, .input_with_link:hover span{
+    color: #232D3F;
+    cursor: text;
+}
+
+.input_with_link:active {
+    transform: scale(0.9);
+}
